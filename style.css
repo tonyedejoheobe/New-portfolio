@@ -113,7 +113,7 @@ canvas {
 }
 
 .landing-page {
-  background: linear-gradient(to top right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 60), rgb(0, 0, 0), rgb(0,0,0));
+  background: linear-gradient(to top right, rgb(0, 0, 10), rgb(0, 0, 20), rgb(0, 0, 80), rgb(0, 0, 20), rgb(0,0,10));
   height: 100vh;
   background-size: 100% 200%;
   animation: moveGradient 7s ease infinite;
