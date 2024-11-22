@@ -123,13 +123,13 @@ setInterval(() => {
 }, 300);
 
 // Create stars and start the animation
-createStars(70); // Create 150 stars
+createStars(50); // Create 50 stars
 animate(); // Start the animation
 
-// Create a shooting star every 10 seconds
+// Create a shooting star every 40 seconds
 setInterval(() => {
     createShootingStar();
-}, 30000);
+}, 40000);
 
 // Handle window resize
 window.addEventListener('resize', () => {
