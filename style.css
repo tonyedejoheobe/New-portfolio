@@ -648,6 +648,9 @@ color: white;
   background-image: url("https://bit.ly/4epPD1z");
   }
   .works .photo-3 {
+  background-image: url("https://ibb.co/kgtSNCSp");
+  }
+ .works .photo-4 {
   background-image: url("https://bit.ly/3CrPqhg");
   }
 
@@ -1142,3 +1145,4 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
