@@ -42,8 +42,16 @@ background-color: #1c1d25;
   width: 100vw;
   height: 100vh;
   backdrop-filter: blur(8px);
-  background: rgba(30, 40, 60, 0.3); /* Optional: adds a slight dark overlay */
+  background: rgba(30, 40, 60, 0.3);
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 0.4s ease;
   z-index: 99999; /* Make sure it's above the page content */
+}
+
+.loader.fade-out {
+  opacity: 0;
+  pointer-events: none;
 }
 .work-paths {
   overflow: none;
@@ -63,6 +71,13 @@ background-color: #1c1d25;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 35%;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.logo-masks.fade-out {
+  opacity: 0;
+  pointer-events: none;
 }
 
 @keyframes clip-animation {
@@ -1174,6 +1189,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
