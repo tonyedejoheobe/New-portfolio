@@ -589,7 +589,7 @@ background: black;
 color: white;
 }
 
-.works {
+.work {
   background: transparent;
   border-radius: 10px !important;
   display: inline-block;
@@ -1187,3 +1187,4 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
