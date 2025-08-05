@@ -35,6 +35,16 @@ background-color: #f3f3f3;
 background-color: #1c1d25;
 }
 
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(8px);
+  background: rgba(30, 40, 60, 0.3); /* Optional: adds a slight dark overlay */
+  z-index: 99999; /* Make sure it's above the page content */
+}
 .work-path {
   overflow: none;
   height: 250px;
@@ -1139,6 +1149,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
