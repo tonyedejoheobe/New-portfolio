@@ -44,9 +44,6 @@ width: 100%;
 display: flex;
 align-items: center;
 text-align: center;
-animation: remove cubic-bezier(0.785, 0.135, 0.15, 0.86) 600ms;
-animation-delay: 1.2s;
-animation-fill-mode: forwards;
 }
 
 .work-path {
