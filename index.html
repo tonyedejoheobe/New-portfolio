@@ -20,7 +20,7 @@
 <body>
   <!-- LOADER -->
 <div id="loading-screen" class="loader">
-	<div class="logo-masks">
+	<div id= "aalphabet" class="logo-masks">
 	<div class="work-paths">
 	</div><br>
 <div class="ripple-loading">
@@ -206,9 +206,14 @@
 
 <script>
         // Hide loading screen after 3 seconds (3000 ms)
-        setTimeout(function() {
-            document.getElementById('loading-screen').style.display = 'none';
-        }, 2100);
+      setTimeout(function() {
+    document.getElementById('loading-screen').classList.add('fade-out');
+    document.getElementById('aalphabet').classList.add('fade-out');
+    setTimeout(function() {
+        document.getElementById('loading-screen').style.display = 'none';
+        document.getElementById('aalphabet').style.display = 'none';
+    }, 400); // match the transition duration
+}, 2500);
     </script>
 <script src="nav.js"></script>
 <script src="social.js"></script>
@@ -216,6 +221,7 @@
 <script src="new.js"></script> 
 </body>
 </html>
+
 
 
 
