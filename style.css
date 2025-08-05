@@ -181,7 +181,7 @@ nav {
   transform: translate1(0, -88px);
   animation: show-nav ease-in-out 1s;
   animation-fill-mode: forwards;
-  animation-delay: 2.4s;
+  animation-delay: 2.3s;
   z-index: 10;
   opacity: 1;
   transition: opacity 400ms ease-in-out;
@@ -1208,6 +1208,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
