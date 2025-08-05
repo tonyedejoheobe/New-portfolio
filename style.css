@@ -120,7 +120,7 @@ canvas {
   background: linear-gradient(to top right, rgb(0, 0, 10), rgb(0, 0, 20), rgb(0, 0, 80), rgb(0, 0, 20), rgb(0,0,10));
   height: 100vh;
   background-size: 100% 200%;
-  animation: moveGradient 10s ease infinite;
+  animation: moveGradient 8s ease infinite;
   z-index: -1;
 }
 
@@ -141,7 +141,7 @@ nav {
   transform: translate1(0, -88px);
   animation: show-nav ease-in-out 0.5s;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 5s;
   z-index: 10;
   opacity: 1;
   transition: opacity 350ms ease-in-out;
@@ -1149,6 +1149,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
