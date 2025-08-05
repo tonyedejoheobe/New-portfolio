@@ -124,27 +124,6 @@ background-color: #1c1d25;
     }
 
 
-/* Track */
-::-webkit-scrollbar-track {
-background: #f3f3f3;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-background: #4f6e9e;
-transition: all 0.2s;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-background: #264e8e;
-transition: all 0.2s;
-}
-
-::selection {
-background: black;
-}
-
 canvas {
   display: block; /* Remove any default margin */
   position: absolute; /* Ensure it covers the entire viewport */
@@ -615,7 +594,7 @@ color: white;
   border-radius: 10px !important;
   display: inline-block;
   height: 500px;
-  width: 500%;
+  width: 100%;
   -webkit-box-shadow: 0px 0px 205px -41px rgba(0, 0, 0, 0.78);
   -moz-box-shadow: 0px 0px 205px -41px rgba(0, 0, 0, 0.78);
   box-shadow: 0px 0px 205px -41px rgba(0, 0, 0, 0.78);
@@ -1027,7 +1006,11 @@ clip-path: polygon(0 100%, 25% 50%, 25% 50%, 50% 0, 80% 60%, 55% 60%, 50% 50%, 2
       transform: translateX(-105%); /* Scale up the box */
 }
 
-
+  .works {
+    transform: translateX(0px) !important;
+    height: 350px;
+    margin-bottom: 75px;
+  }
   .works {
     transform: translateX(-23%) !important;
     height: 350px;
@@ -1204,35 +1187,3 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
