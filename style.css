@@ -1027,11 +1027,7 @@ clip-path: polygon(0 100%, 25% 50%, 25% 50%, 50% 0, 80% 60%, 55% 60%, 50% 50%, 2
       transform: translateX(-105%); /* Scale up the box */
 }
 
-  .works {
-    transform: translateX(0px) !important;
-    height: 350px;
-    margin-bottom: 75px;
-  }
+
   .works {
     transform: translateX(-23%) !important;
     height: 350px;
@@ -1208,6 +1204,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
