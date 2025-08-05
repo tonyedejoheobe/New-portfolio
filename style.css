@@ -1025,6 +1025,7 @@ clip-path: polygon(0 100%, 25% 50%, 25% 50%, 50% 0, 80% 60%, 55% 60%, 50% 50%, 2
 .animate {
       transition: ease-in-out 1s;
       transform: translateX(-105%); /* Scale up the box */
+      transform: translatey(105%);
 }
 
   .works {
@@ -1208,6 +1209,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
