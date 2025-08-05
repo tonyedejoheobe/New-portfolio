@@ -35,7 +35,7 @@ background-color: #f3f3f3;
 background-color: #1c1d25;
 }
 
-.loading {
+.loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -1149,6 +1149,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
