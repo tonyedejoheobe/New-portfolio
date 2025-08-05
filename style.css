@@ -909,7 +909,7 @@ clip-path: polygon(0 100%, 25% 50%, 25% 50%, 50% 0, 80% 60%, 55% 60%, 50% 50%, 2
   }
 
  .ripple-loading span{
- font-size: 1rem;
+ font-size: 1.5rem;
  }
   
   .work-path-2 {
@@ -1199,6 +1199,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
