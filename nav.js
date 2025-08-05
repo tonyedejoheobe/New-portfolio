@@ -19,7 +19,7 @@ function updateNavLinks() {
 				<a class="nav-link nav-style" href="#case-studies" class="smooth-scroll">
 					<div class="title-background"></div>
 					<span class="text-decoration">Case Studies</span></a>
-				<a class="nav-link nav-style" href="/smallest.html" id="about">
+				<a class="nav-link nav-style" href="/aboutme.html" id="about">
 					<div class="title-background"></div>
 					<span class="text-decoration">About Me/Contact</span></a>
 			</div>
@@ -61,4 +61,5 @@ $('.hamburger').click(function() {
     $(this).toggleClass('is-opened');
 
   })     
+
 
