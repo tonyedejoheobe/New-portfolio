@@ -956,7 +956,7 @@ clip-path: polygon(0 100%, 25% 50%, 25% 50%, 50% 0, 80% 60%, 55% 60%, 50% 50%, 2
   animation: show-nav ease-in-out 1s;
   animation-fill-mode: forwards;
   animation-delay: 2.4s;
-  z-index: 10;
+  z-index: 9999 !important;
   transition: opacity 400ms ease-in-out;
   position: absolute;
   left: 85%;
@@ -1002,12 +1002,11 @@ clip-path: polygon(0 100%, 25% 50%, 25% 50%, 50% 0, 80% 60%, 55% 60%, 50% 50%, 2
     width: 90%;
     height: 230px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    z-index: 2;
     overflow: hidden;
     position: absolute;
     display: flex;
     flex-direction: row;
-    background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     padding: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
@@ -1209,6 +1208,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
