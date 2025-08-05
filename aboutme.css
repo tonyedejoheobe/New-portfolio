@@ -305,7 +305,7 @@ body {
 
 .card-item-desc {
   font-size: 13px;
-  color: #fff;
+  color: #000;
   line-height: 1.5;
   font-family: "DM Sans", sans-serif;
 }
@@ -361,6 +361,7 @@ canvas {
     height: 100%;
     pointer-events: none; /* Allow clicks to pass through to underlying elements */
   }
+
 
 
 
