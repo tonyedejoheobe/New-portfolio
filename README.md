@@ -16,8 +16,8 @@ I have hands-on experience with:
 - **Portfolio Website** – A personal site to showcase my skills, resume, and projects.  
 
 # **🛠 Tech Stack & Skills**
-**Languages:** HTML, CSS, JavaScript  
-**Frameworks / Libraries:** Bootstrap, React  
+**Languages:** HTML, CSS, JavaScript, Tailwind css, Typescript 
+**Frameworks / Libraries:** Bootstrap, React, Next.js, vite
 **Tools:** Git, GitHub, VS Code, Chrome DevTools
 
 **Other Relevant Skills**
