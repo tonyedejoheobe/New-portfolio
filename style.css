@@ -43,7 +43,7 @@ background-color: #1c1d25;
   height: 100vh;
   backdrop-filter: blur(8px);
   background: rgba(30, 40, 60, 0.3);
-  z-index: 999;
+  z-index: 99999 !important;
   opacity: 1;
   transition: opacity 0.4s ease;
   z-index: 99999; /* Make sure it's above the page content */
@@ -1182,6 +1182,7 @@ transform: translate(0, 0);
   position: absolute;
   bottom: 100px;
   }
+
 
 
 
