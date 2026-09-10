@@ -1,236 +1,61 @@
-<!DOCTYPE html>
-<html lang='en' class=''>
+<!doctype html>
+<html lang="en">
 <head>
-
-  <meta charset='UTF-8'>
-  <title>My Portfoilo</title>
-
-  <meta name="robots" content="noindex">
-
- <link rel="shortcut icon" href="/images/resume.png" type="image/x-icon">
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-
+  <meta name="description" content="Joheobe Tony Ede — Freelance Web Designer and Developer">
+  <link rel="shortcut icon" href="images/resume.png" type="image/x-icon">
+  <title>Joheobe Tony Ede — Freelance Web Designer and Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- LOADER -->
-<div id="loading-screen" class="loader">
-	<div id= "aalphabet" class="logo-masks">
-	<div class="work-paths">
-	</div><br>
-<div class="ripple-loading">
-    <span style="--i:0"><b>L</span>
-    <span style="--i:1">o</span>
-    <span style="--i:2">a</span>
-    <span style="--i:3">d</span>
-    <span style="--i:4">i</span>
-    <span style="--i:5">n</span>
-    <span style="--i:6">g</span>
-    <span style="--i:7">.</span>
-    <span style="--i:8">.</span>
-    <span style="--i:9">.</span>
-  </div>
-	</div>
-</div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-<!-- STAR CANVAS -->
-<canvas id="starCanvas"></canvas>
+  <header class="site-header" data-header>
+    <a class="brand magnetic" href="#top" aria-label="Joheobe Tony Ede home"><span class="brand-mark">JTE</span><span class="brand-name">Joheobe Tony Ede</span></a>
+    <nav class="site-nav" aria-label="Primary navigation"><a href="#work">Work</a><a href="#story">Story</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+    <a class="header-availability magnetic" href="#contact"><span></span>Available for work</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
 
-<!-- NAVBAR -->
-<div class="hamburger" id="sideb" onclick="slide()">
-	<span></span>
-	<span></span>
-	<span></span>
-</div>
-<div class="geometry1"></div>
-<div class="landing-page" id="main">
-<div class="behind-title">
-		<h1 class="title"><span class="first-letter">J</span>oheobe <span class="first-letter">A</span>nthony</h1>
-		<h2 class="job">Support Developer & Support Engineer</h2>
-</div>
-	<div class="logo-mask">
-		<div class="work-path"></div>
-	</div>
-	<!-- Social Media in the Right -->
-	<ul class="social-vertical-stripe" style="position: fixed;" id="socialMenu">
-		<li><a href="https://www.linkedin.com/in/tony-joheobe-005716331/"><i class="fa-brands fa-linkedin" id="linkdin"></i></a></li>
-		<li><a href="https://github.com/tonyedejoheobe" target="_blank"><i class="fa-brands fa-github" id="git"></i></a></li>
-		<li><a href="https://codepen.io/Joheobe-Ede" target="_blank"><i class="fab fa-codepen" id="codep"></i></a></li>
-	</ul>
-	<!-- End of Social Media in the right -->
+  <main id="top">
+    <section class="hero page-pad" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-copy reveal"><p class="eyebrow"><span>01</span> Freelance Web Designer and Developer</p><h1 id="hero-title">Joheobe <em>Tony Ede</em></h1><p class="hero-lede">I design and build websites that feel clear from the first click. My work is a mix of visual decisions, careful frontend code, and the small details that make a site feel like it belongs to the people using it.</p><div class="hero-actions"><a class="button button-dark magnetic" href="#work">Explore the work <span aria-hidden="true">↘</span></a><a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">→</span></a></div></div>
+        <div class="hero-art reveal reveal-delay-1" data-parallax="0.12"><div class="hero-frame"><a class="hero-image hero-image--megchow" href="https://www.megchow.com/" target="_blank" rel="noreferrer" aria-label="Visit megchow.com"><img src="images/megchow-live.png" alt="Full MegChOw landing page screenshot"></a><div class="hero-caption"><span>Selected build</span><strong>megchow.com</strong></div></div><div class="hero-stamp" aria-hidden="true"><span>DESIGN</span><span>+</span><span>CODE</span></div><div class="hero-index"><span>SELECTED BUILDS</span><span>↘</span></div></div>
+      </div>
+      <div class="hero-meta reveal reveal-delay-2"><span>Based in Ahmadu Bello Way, Federal Capital Territory, Nigeria</span><span>I like working with small teams and clear briefs</span></div>
+    </section>
 
-	<!-- NAVBAR -->
-	<div class="container-fluid hero" id="animatedBox">
-	 <!-- Links will be populated here by JavaScript -->	
-	</div>
+    <section class="statement page-pad reveal" aria-label="Profile statement"><p class="section-kicker">A practical point of view</p><div class="statement-grid"><h2>Websites should feel like someone cared enough to finish them.</h2><p>I like the part of a project where a rough idea becomes a real page: choosing what deserves attention, making the layout behave, and leaving the code tidy enough for the next person to understand.</p></div></section>
 
-	<!-- Welcome page -->
+    <section class="work page-pad" id="work" aria-labelledby="work-title"><div class="section-heading reveal"><p class="section-kicker"><span>02</span> Selected work</p><h2 id="work-title">A few things<br><em>I’ve built.</em></h2><p class="section-note">Different briefs, different audiences, and the same goal each time: make the experience easy to understand and good to use.</p></div><div class="project-grid">
+      <article class="project-card project-card--wide reveal tilt-card" data-tilt="8"><a class="project-visual project-visual--ecokreate" href="https://ecokreate.com/" target="_blank" rel="noreferrer" aria-label="Visit ecokreate.com"><img class="project-preview" src="images/ecokreate-live.png" alt="Full Ecokreate landing page screenshot"><span class="project-number">01</span><span class="project-label">Ecokreate / web</span></a><div class="project-body"><div><p class="project-type">01 / ecokreate.com</p><h3>eco<br><em>kreate</em></h3><p>A web experience built around a clear, confident first impression.</p></div><a class="round-link magnetic" href="https://ecokreate.com/" target="_blank" rel="noreferrer" aria-label="View ecokreate.com project">↗</a></div></article>
+      <article class="project-card project-card--tall reveal reveal-delay-1 tilt-card" data-tilt="7"><div class="project-visual project-visual--avepay"><span class="project-number">02</span><span class="project-label">Campus payments</span></div><div class="project-body"><div><p class="project-type">02 / Ave Pay</p><h3>Ave <em>Pay</em></h3><p>A responsive payment experience designed for a university community.</p></div><a class="round-link magnetic" href="https://ave-pay.netlify.app/" target="_blank" rel="noreferrer" aria-label="View Ave Pay project">↗</a></div></article>
+      <article class="project-card project-card--feature reveal tilt-card" data-tilt="7"><a class="project-visual project-visual--megchow" href="https://www.megchow.com/" target="_blank" rel="noreferrer" aria-label="Visit megchow.com"><img class="project-preview" src="images/megchow-live.png" alt="Full MegChOw landing page screenshot"><span class="project-number">03</span><span class="project-label">Megchow / web</span></a><div class="project-body"><div><p class="project-type">03 / megchow.com</p><h3>meg<br><em>chow</em></h3><p>A polished web presence with a friendly, memorable point of view.</p></div><a class="round-link magnetic" href="https://www.megchow.com/" target="_blank" rel="noreferrer" aria-label="View megchow.com project">↗</a></div></article>
+    </div></section>
 
-	<!-- NEXT Animation -->
-	<a href="#case-studies" data-scroll="" class="hero-go-next">
-		<div class="go-next-label">Works</div><span class="the-arrow arrow-down"></span></a>
-</div>
-<!-- The Case Studie -->
-<div class="container light-bg" id="case-studies">
-	<div class="vertical-border">
-	</div>
-	<div class="borders">
-		<h3 class="text-center case">&nbspCASE STUDIES</h3>
-		<h2 class="text-center last-ex">&nbspLatest Works</h2>
+    <section class="story page-pad" id="story" aria-labelledby="story-title">
+      <div class="story-intro reveal"><p class="section-kicker"><span>03</span> About / experience</p><h2 id="story-title">The work<br>behind the <em>work.</em></h2></div>
+      <div class="story-content">
+        <div class="about-panel reveal"><p class="section-kicker">About</p><p class="about-copy">I’m a freelance web designer and developer. I enjoy taking an idea that is still a little messy and working out what the page actually needs: a clearer structure, better rhythm, or a simpler way through. Then I build it properly.</p><div class="about-signature">JTE <span>— Joheobe Tony Ede</span></div></div>
+        <div class="experience-panel reveal reveal-delay-1"><p class="section-kicker">Work experience</p><div class="timeline"><article class="timeline-item"><div class="timeline-date">March 2022 &ndash; December 2024</div><div><h3>Web Design and Development Intern at <span>Beter Concept</span></h3><div class="experience-meta"><span>Internship</span><span>Remote &amp; Onsite</span></div><ul class="experience-bullets"><li>Built and refined responsive pages alongside the team, paying close attention to spacing, hierarchy, and how each layout behaved on smaller screens.</li><li>Fixed frontend bugs, cleaned up existing components, and helped turn approved designs into working interfaces.</li><li>Used feedback from reviews and real use to make practical changes to layouts, interactions, and content.</li></ul><p class="tech-stack"><strong>Tools used</strong> HTML, CSS, JavaScript, React, Bootstrap, Git</p></div></article></div></div>
+        <div class="education-panel reveal reveal-delay-2"><p class="section-kicker">Education</p><h3>Ave Maria University</h3><p class="education-date">2021 &ndash; 21st August 2025</p><p>A place where I kept building, testing ideas, and learning by making things for real people.</p><span class="education-mark">AMU</span></div>
+      </div>
+    </section>
 
-		<!-- works -->
-		<div class="works" id="border">
-			<div class="photo photo-4">
-			</div>
-			<div class="black-overlay">
-			</div>
-			<div class="overlay-animation">
-			</div>
-			<div class="full-numb">
-				<div class="numbers">
-					<p class="the-number">01</p>
-				</div>
-			</div>
-			<div class="works-text">
-				<h2>
-					<span class="first-lettre">E</span>-commerce
-					<span class="first-lettre">W</span>ebsite
-				</h2>
-				<p class="under-text">A demo of an e-commerce website</p>
-				<a href="https://t-tech-laptops.netlify.app/" target="_blank">
-					<div class="buttons">
-						<p class="b-text">View Project</p>
-					</div>
-					</a>
-			</div>
-		</div>
+    <section class="skills page-pad" id="skills" aria-labelledby="skills-title"><div class="skills-head reveal"><p class="section-kicker"><span>04</span> Skills</p><h2 id="skills-title">How I design.<br><em>How I build.</em></h2><p>The tools change from project to project. The habit that stays is paying attention to the page in front of me. I also work comfortably behind the interface, building the services that keep a website useful.</p></div><div class="skills-system reveal reveal-delay-1"><div class="skill-switcher" role="tablist" aria-label="Skill categories"><button class="skill-tab is-active" type="button" role="tab" aria-selected="true" data-track="frontend">Frontend Development</button><button class="skill-tab" type="button" role="tab" aria-selected="false" data-track="design">Web Design</button><button class="skill-tab" type="button" role="tab" aria-selected="false" data-track="backend">Backend &amp; Systems</button></div><div class="skill-cloud" data-cloud="frontend"><span class="skill-orbit orbit-one"></span><span class="skill-orbit orbit-two"></span><span class="skill-core">JTE<br><small>design / build</small></span><button class="skill-chip chip-1" data-skill="frontend">React</button><button class="skill-chip chip-2" data-skill="frontend">TypeScript</button><button class="skill-chip chip-3" data-skill="frontend">Next.js</button><button class="skill-chip chip-4" data-skill="frontend">Tailwind</button><button class="skill-chip chip-5" data-skill="frontend">HTML</button><button class="skill-chip chip-6" data-skill="frontend">CSS</button><button class="skill-chip chip-7" data-skill="frontend">JavaScript</button><button class="skill-chip chip-8" data-skill="frontend">Bootstrap</button><button class="skill-chip chip-9" data-skill="frontend">Vite</button><button class="skill-chip chip-10" data-skill="frontend">Git &amp; GitHub</button><button class="skill-chip chip-11" data-skill="frontend">VS Code</button><button class="skill-chip chip-12" data-skill="frontend">Chrome DevTools</button></div><div class="skill-cloud is-hidden" data-cloud="design"><span class="skill-orbit orbit-one"></span><span class="skill-orbit orbit-two"></span><span class="skill-core">JTE<br><small>design / build</small></span><button class="skill-chip chip-1" data-skill="design">Responsive Design</button><button class="skill-chip chip-2" data-skill="design">UI / UX</button><button class="skill-chip chip-3" data-skill="design">Wireframing</button><button class="skill-chip chip-4" data-skill="design">Typography</button><button class="skill-chip chip-5" data-skill="design">Layout Systems</button><button class="skill-chip chip-6" data-skill="design">Prototyping</button><button class="skill-chip chip-7" data-skill="design">Accessibility</button><button class="skill-chip chip-8" data-skill="design">Interaction Design</button><button class="skill-chip chip-9" data-skill="design">Performance</button><button class="skill-chip chip-10" data-skill="design">Design Systems</button><button class="skill-chip chip-11" data-skill="design">Mobile-first</button><button class="skill-chip chip-12" data-skill="design">Cross-browser</button></div><div class="skill-cloud is-hidden" data-cloud="backend"><span class="skill-orbit orbit-one"></span><span class="skill-orbit orbit-two"></span><span class="skill-core">JTE<br><small>design / build</small></span><button class="skill-chip chip-1" data-skill="backend">Node.js</button><button class="skill-chip chip-2" data-skill="backend">Express</button><button class="skill-chip chip-3" data-skill="backend">RESTful APIs</button><button class="skill-chip chip-4" data-skill="backend">Python</button><button class="skill-chip chip-5" data-skill="backend">SQL/NoSQL databases (MongoDB)</button></div></div></section>
 
-	<div class="works" id="border">
-			<div class="photo photo-3">
-			</div>
-			<div class="black-overlay">
-			</div>
-			<div class="overlay-animation">
-			</div>
-			<div class="full-numb">
-				<div class="numbers">
-					<p class="the-number">02</p>
-				</div>
-			</div>
-			<div class="works-text">
-				<h2>
-					<span class="first-lettre">A</span>ve
-					<span class="first-lettre">P</span>ay
-				</h2>
-				<p class="under-text">A responsive payment system design for a university</p>
-				<a href="https://ave-pay.netlify.app/"_blank">
-					<div class="buttons">
-						<p class="b-text">View Project</p>
-					</div>
-					</a>
-				</div>
-			</div>
-		
-		<div class="works" id="border">
-			<div class="photo photo-1">
-			</div>
-			<div class="black-overlay">
-			</div>
-			<div class="overlay-animation">
-			</div>
-			<div class="full-numb">
-				<div class="numbers">
-					<p class="the-number">03</p>
-				</div>
-			</div>
-			<div class="works-text">
-				<h2>
-					<span class="first-lettre">A</span>ge
-					<span class="first-lettre">C</span>alculator
-				</h2>
-				<p class="under-text">A responsive age calculator</p>
-				<a href="https://codegeek-age-calculator.netlify.app/" target="_blank">
-					<div class="buttons">
-						<p class="b-text">View Project</p>
-					</div>
-					</a>
-			</div>
-		</div>
-		
-		<div class="works" id="border">
-			<div class="photo photo-2">
-			</div>
-			<div class="black-overlay">
-			</div>
-			<div class="overlay-animation">
-			</div>
-			<div class="full-numb">
-				<div class="numbers">
-					<p class="the-number">04</p>
-				</div>
-			</div>
-			<div class="works-text">
-				<h2>
-					<span class="first-lettre">O</span>ld
-					<span class="first-lettre">P</span>ortfoilo
-				</h2>
-				<p class="under-text">A responsive & dynamic portfoilo</p>
-				<a href="https://codegeek-my-portfolio.netlify.app/" target="_blank">
-					<div class="buttons">
-						<p class="b-text">View Project</p>
-					</div>
-					</a>
-				</div>
-			</div>
-		</div>
-		</div>
-<!-- FOOTER -->
-<div class="footer center">
-	<div class="allin-area">
-		<div class="geometry-2"></div>
-	</div>
-	<a class="no-effect" href="#main">
-		<div class="work-path-3 third-logo">
-		</div>
-	</a>
-	<div class="last-media">
-		<a class="the-media" href="#main">Click here to go to the top</a>
-	</div>
-	<span class="copyright">© 2024 Joheobe Ede Anthony - <a href="mailto:edejoheobe@gmail.com" target="_blank">edejoheobe@gmail.com</a> - Contact</span>
-</div>
+    <section class="contact page-pad" id="contact" aria-labelledby="contact-title"><div class="contact-top reveal"><p class="section-kicker"><span>05</span> Contact</p><h2 id="contact-title">Tell me what<br><em>you’re making.</em></h2><a class="button button-accent magnetic" href="https://wa.me/2348060608712?text=Hello%20there!" target="_blank" rel="noreferrer">Work together <span aria-hidden="true">↗</span></a></div><div class="contact-grid reveal reveal-delay-1"><div class="contact-item"><span>Location</span><strong>Ahmadu Bello Way, Federal Capital Territory, Nigeria</strong></div><div class="contact-item"><span>Phone</span><strong>(+234)80-6060-8712</strong></div><div class="contact-item"><span>Email</span><a href="mailto:edejoheobe@gmail.com">edejoheobe@gmail.com</a></div><div class="contact-item"><span>Elsewhere</span><div class="social-links"><a href="https://www.linkedin.com/in/tony-joheobe-005716331/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/tonyedejoheobe" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://codepen.io/Joheobe-Ede" target="_blank" rel="noreferrer">CodePen ↗</a></div></div></div></section>
+  </main>
 
-<script>
-        // Hide loading screen after 2 seconds (2000 ms)
-      setTimeout(function() {
-    document.getElementById('loading-screen').classList.add('fade-out');
-    document.getElementById('aalphabet').classList.add('fade-out');
-    setTimeout(function() {
-        document.getElementById('loading-screen').style.display = 'none';
-        document.getElementById('aalphabet').style.display = 'none';
-    }, 400); // match the transition duration
-}, 2010);
-    </script>
-<script src="nav.js"></script>
-<script src="social.js"></script>
-<script src="star.js"></script>
-<script src="new.js"></script> 
+  <footer class="site-footer page-pad"><a class="brand" href="#top"><span class="brand-mark">JTE</span><span class="brand-name">Joheobe Tony Ede</span></a><a class="footer-top" href="#top">Click here to go to the top <span aria-hidden="true">↗</span></a><span class="copyright">© 2024 Joheobe Ede Anthony - <a href="mailto:edejoheobe@gmail.com">edejoheobe@gmail.com</a> - Contact</span></footer>
+  <script src="new.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-

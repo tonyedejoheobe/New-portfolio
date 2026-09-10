@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Megchow website preview</title>
+  <desc id="desc">Warm editorial food website interface with navigation, headline, menu card, and terracotta accents.</desc>
+  <rect width="1200" height="900" fill="#f5eee2"/>
+  <rect x="42" y="38" width="1116" height="824" rx="4" fill="#fffaf1" stroke="#17201c" stroke-width="3"/>
+  <path d="M42 132h1116" stroke="#17201c" stroke-width="3"/>
+  <text x="82" y="96" fill="#17201c" font-family="Arial, sans-serif" font-size="36" font-weight="700">megchow</text>
+  <text x="900" y="91" fill="#17201c" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">MENU</text>
+  <text x="1020" y="91" fill="#17201c" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">ABOUT</text>
+  <circle cx="1040" cy="320" r="190" fill="#b96d54"/>
+  <circle cx="1038" cy="318" r="120" fill="#e8c8a9"/>
+  <path d="M935 360c54-128 164-148 212-42-30 64-87 109-166 124z" fill="#273a31"/>
+  <path d="M962 370c41-67 90-95 143-72" fill="none" stroke="#fffaf1" stroke-width="10" stroke-linecap="round"/>
+  <text x="92" y="274" fill="#8f4f3d" font-family="Georgia, serif" font-size="32" font-style="italic">good food, no fuss</text>
+  <text x="88" y="370" fill="#17201c" font-family="Arial, sans-serif" font-size="78" font-weight="700">made for</text>
+  <text x="88" y="452" fill="#17201c" font-family="Georgia, serif" font-size="86" font-style="italic">the table.</text>
+  <rect x="90" y="510" width="214" height="62" fill="#17201c"/>
+  <text x="125" y="550" fill="#fffaf1" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">SEE THE MENU</text>
+  <path d="M90 685h1018" stroke="#c9c5bb" stroke-width="2"/>
+  <text x="90" y="746" fill="#17201c" font-family="Arial, sans-serif" font-size="22" font-weight="700">fresh / generous / familiar</text>
+  <text x="90" y="790" fill="#425047" font-family="Arial, sans-serif" font-size="19">A simple web home for a place people already love.</text>
+</svg>

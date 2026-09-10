@@ -1,42 +1,50 @@
-# **💻 My Developer Portfolio**
+# Joheobe Tony Ede - Web Designer and Developer
 
-Welcome to my portfolio repository! This is a showcase of my work as a **Frontend Developer & Technical Support Engineer** with experience in building responsive, user-friendly web applications and providing customer-focused technical solutions.
+This portfolio is a record of the websites and small digital products I have built while learning what makes a page feel clear, useful, and worth spending time on.
 
-# **🚀 About Me**
-I’m passionate about creating smooth, functional, and visually appealing digital experiences.  
+## About Me
+
+I enjoy the work between an early idea and a finished interface: deciding what belongs on the page, giving it a sensible rhythm, and writing frontend code that stays understandable after launch.
+
 I have hands-on experience with:
-- **Frontend Development:** HTML, CSS, JavaScript, Bootstrap, React
-- **Version Control:** Git & GitHub
-- **Technical Support & Debugging**
-- **Problem Solving & Documentation**
 
-# **📂 Featured Projects**
-- **AvePay** – A web app for transferring e-currency (V-Coin) to campus vendors via QR codes.  
-- **Learning Management System (LMS)** – A platform with scheduling, resource sharing, and student–teacher interaction features.  
-- **Portfolio Website** – A personal site to showcase my skills, resume, and projects.  
+- Frontend development: HTML, CSS, JavaScript, Bootstrap, React
+- Version control: Git & GitHub
+- Responsive web design and mobile-first layouts
+- Problem solving, testing, and documentation
 
-# **🛠 Tech Stack & Skills**
-**Languages:** HTML, CSS, JavaScript, Tailwind css, Typescript 
-**Frameworks / Libraries:** Bootstrap, React, Next.js, vite
+## Featured Projects
+
+- **AvePay** - A web app for transferring e-currency (V-Coin) to campus vendors via QR codes.
+- **Learning Management System (LMS)** - A platform with scheduling, resource sharing, and student-teacher interaction features.
+- **Portfolio Website** - A personal site to showcase my skills, resume, and projects.
+
+## Tech Stack & Skills
+
+**Languages:** HTML, CSS, JavaScript, Tailwind CSS, TypeScript
+
+**Frameworks / Libraries:** Bootstrap, React, Next.js, Vite
+
 **Tools:** Git, GitHub, VS Code, Chrome DevTools
 
 **Other Relevant Skills**
-- UI / UX Design Principles
-- Responsive Web Design (mobile-first)
-- Cross-Browser Compatibility
-- API Integration (RESTful services)
-- State Management (basic React state & hooks)
-- Testing & Debugging (console, breakpoints)
-- Accessibility (WCAG basics)
-- Performance Optimization (lazy loading, asset minification)
-- Technical Documentation & Knowledge Base Creation
-- Agile / Scrum Workflow
-- Customer Service Communication & Ticketing Systems
-- Continuous Learning & Adaptability
 
-# **📫 Contact Me**
-- **Email:** edejoheobe@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/tony-joheobe-005716331/  
+- UI / UX design principles
+- Responsive web design (mobile-first)
+- Cross-browser compatibility
+- API integration (RESTful services)
+- State management (basic React state & hooks)
+- Testing and debugging (console, breakpoints)
+- Accessibility (WCAG basics)
+- Performance optimization (lazy loading, asset minification)
+- Technical documentation and knowledge base creation
+- Agile / Scrum workflow
+- Continuous learning and adaptability
+
+## Contact Me
+
+- **Email:** edejoheobe@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/tony-joheobe-005716331/
 - **Portfolio:** https://codegeek-newportfolio.netlify.app/#
 
-> _“Code is like humor. When you have to explain it, it’s bad.”_ – Cory House
+> Code is like humor. When you have to explain it, it's bad. - Cory House
